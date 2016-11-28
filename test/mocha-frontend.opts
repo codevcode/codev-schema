@@ -1,0 +1,3 @@
+--colors
+--reporter dot
+--require ./test/mocha-frontend-setup.js

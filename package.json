@@ -1,0 +1,28 @@
+{
+  "name": "codev-schema",
+  "version": "0.1.0",
+  "description": "codev schema utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run linter && npm run mocha",
+    "mocha": "env NODE_PATH=./src mocha './src/**/*spec.js' --opts ./test/mocha-frontend.opts",
+    "mocha-dev": "env NODE_PATH=./src mocha './src/**/*spec.js' --opts ./test/mocha-frontend.opts --watch --bail",
+    "linter": "eslint src --fix --format tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codevcode/codev-schema.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/codevcode/codev-schema/issues"
+  },
+  "homepage": "https://github.com/codevcode/codev-schema#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.11.0",
+    "mocha": "^3.2.0"
+  }
+}
