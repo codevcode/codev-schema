@@ -1,4 +1,1 @@
-function pick () {
-}
-
-exports.pick = pick
+exports.pick = require('./pick')
